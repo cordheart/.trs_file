@@ -86,7 +86,7 @@ string Binarycout(long n)//int转32位二进制
 int main()
 {
 	//Oscilloscope1
-	ifstream infile("C:\\Users\\13953\\Desktop\\Oscilloscope1.trs", ios::binary);
+	ifstream infile(".trs filepath", ios::binary);
 	ofstream out_tag_length("tag_length.txt");
 	ofstream out_info("info.txt");
 	ofstream out_wave("wave.txt");
